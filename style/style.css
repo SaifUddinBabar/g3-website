@@ -129,6 +129,12 @@ main{
 
 
 
+.featured-architect img{
+    width: 100%;
+    display: none;
+
+}
+
 /* Feature section related style */
 #feature-section-title{
     border-left: 5px solid #FF900E;
@@ -140,6 +146,19 @@ main{
     font-weight: 600;
     margin-top: 0px;
     margin-bottom: 0px;
+}
+
+#experience-badge{
+
+    padding: 45px 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: -100px;
+    margin-top: -100px;
+}
+#experience-year{
+    font-size: 4.12rem;
+    font-weight: 700;
 }
 .features{
     gap: 130px;
@@ -239,7 +258,7 @@ margin-top: 10px;
 /* responsive media */
 @media screen  and (max-width:576px){
 
-    .navbar, .navlinks, .teams{
+    .navbar, .navlinks, .teams, .features{
         flex-direction: column;
         
     }
@@ -256,5 +275,8 @@ margin-top: 10px;
     justify-items: center;
     gap: 50px;
 }
-
+#experience-badge{
+    margin-top: 20px;
+    margin-left:20px ;
+}
 }
